@@ -1,7 +1,12 @@
 $navbar-default-bg: rgb(3, 90, 161);
 
+
 @import "bootstrap-mincer";
 @import "bootstrap";
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
 
 #logo {
     float: left;
