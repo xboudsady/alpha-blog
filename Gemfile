@@ -8,14 +8,14 @@ gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 
 # Jquery
-gem 'jquery-rails'#, '~> 4.3', '>= 4.3.3'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
-gem 'sass-rails'#, '>= 3.2'
-gem 'bootstrap-sass'#, '~> 3.3.7'
+gem 'sass-rails', '>= 3.2'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -50,6 +50,12 @@ end
 
 group :production do
   gem 'pg'
+  # Jquery
+  gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+  gem 'rails-ujs', '~> 0.1.0'
+  gem 'sass-rails', '>= 3.2'
+  gem 'bootstrap-sass', '~> 3.3.7'
+
 end
 
 group :development do
