@@ -9,6 +9,10 @@ gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'bcrypt', '~> 3.1.7'
 
+# For pagination of articles
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Jquery
 gem 'jquery-rails'
 gem 'rails-ujs', '~> 0.1.0'
